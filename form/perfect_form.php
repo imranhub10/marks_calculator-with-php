@@ -47,7 +47,7 @@
                     <input type="checkbox" name="language" id="language">
                     <span id="english">English</span>
                     <br><br>
-                    <input type="submit" id="submit">
+                    <input type="submit" name="submit_btn"id="submit">
                 </form>
             </div>
         </div>

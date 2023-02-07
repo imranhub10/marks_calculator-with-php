@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST['register'])){
+    if(isset($_POST['submit_btn'])){
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
@@ -9,7 +9,6 @@
 ?>
 
 <!DOCTYPE html>
-<html>
     <head>
         <title>Registration Form</title>
         <link rel="stylesheet" href="perfect_form.css">
@@ -18,7 +17,7 @@
     
         <div class="main">
             <div class="register">
-                <h2>Register Here</h2>
+                <h2>Your Information</h2>
                     <label>Name : </label><br>
                     <?php if(isset($name)){echo $name;} ?><br><br>
                     <label>Phone : </label><br>
